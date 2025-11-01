@@ -9,7 +9,8 @@ SECRET_KEY = os.environ.get(
 "django-insecure-y#lv@ls255+cyx$f6d%@2yxp^y_egg)6_*mt!#@y4fphy+)rl2" 
 ) 
 DEBUG = os.environ.get("DJANGO_DEBUG", "True") == "True" 
-ALLOWED_HOSTS = ['todo-backend-ofty.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
+
 
 
 # -------------------- 
